@@ -4,7 +4,7 @@ Rewards:
   Civ:
 
     # Level 1 basically means 100% chance at getting an item
-    Level1: 
+    1: 
       Chance: 100
 
       # Pick 4 means we'll pick 4 of the items in the list below
@@ -16,23 +16,23 @@ Rewards:
       Items: 
         - bandage: 20
         - medikit: 10
-        - bread: 25
+        - hamburger: 25
         - repairkit: 25
-    Level2:
+    2:
       Chance: 50
-      Pick: 4
+      Pick: 3
       Items:
         - FireExtinguisher: 1
         - FlashLight: 1
         - Defib: 3
-    Level3:
+    3:
       Chance: 25
       Pick: 1
       Items:
         - Cash: 10000
         - Car (Sedan): 1
         - Car (Compact): 1
-    Level4:
+    4:
       Chance: 5
       Pick: 1
       Items:
@@ -42,7 +42,7 @@ Rewards:
         - Car (Sport): 1
         - Car (Muscle): 1
         - BurtPoints: 20
-    Level5:
+    5:
       Chance: 1
       Pick: 1
       Items:
@@ -51,7 +51,7 @@ Rewards:
   Crim:
 
     # Level 1 basically means 100% chance at getting an item
-    Level1: 
+    1: 
       Chance: 100
 
       # Pick 4 means we'll pick 4 of the items in the list below
@@ -67,7 +67,7 @@ Rewards:
         - Knife: 1
         - Machete: 1
         - joints: 25
-    Level2:
+    2:
       Chance: 50
       Pick: 2
       Items:
@@ -77,7 +77,7 @@ Rewards:
         - bags: 300
         - zipties: 10
         - Ammo: 20
-    Level3:
+    3:
       Chance: 25
       Pick: 1
       Items:
@@ -85,12 +85,12 @@ Rewards:
         - AdvancedLockpick: 1
         - Blowtorch: 1
         - ATMDevice: 1
-    Level4:
+    4:
       Chance: 5
       Pick: 1
       Items:
         - ClassTwoWeapon: 1
-    Level5:
+    5:
       Chance: 1
       Pick: 1
       Items:
