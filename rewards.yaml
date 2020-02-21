@@ -1,0 +1,50 @@
+Rewards:
+
+  # Civilian rewards
+  Civ:
+
+    # Level 1 basically means 100% chance at getting an item
+    Level1: 
+      Chance: 100
+
+      # Pick 4 means we'll pick 4 of the items in the list below
+      Pick: 4
+
+      # Here is our list of items, the number next to it is the random number ceiling of the item.
+      # E.G. bandage: 20 means there's a random chance of getting between 1-20 of bandages. Could 
+      # be 1 or it could be 20, or could be 12.
+      Items: 
+        - bandage: 20
+        - medikit: 10
+        - bread: 25
+        - repairkit: 25
+    Level2:
+      Chance: 50
+        Pick: 4
+        Items:
+          - FireExtinguisher: 1
+          - FlashLight: 1
+          - Defib: 3
+    Level3:
+      Chance: 25
+        Pick: 1
+        Items:
+          - Cash: 10000
+          - Car (Sedan): 1
+          - Car (Compact): 1
+    Level3:
+      Chance: 5
+        Pick: 1
+        Items:
+          - Cash: 50000
+          - CarTune: 1
+          - DriftChip: 1
+          - Car (Sport): 1
+          - Car (Muscle): 1
+          - BurtPoints: 20
+      Level4:
+      Chance: 1
+        Pick: 1
+        Items:
+          - House: 1
+        
